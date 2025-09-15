@@ -21,13 +21,12 @@ abstract public class Kato_Chapter18 {
 	// 個別の紹介を出力する(抽象メソッド)
 	abstract public void eachlntroduce();
 	
-	// 【実行】
-	public void setGivenName() {
+	// 名前を実行する
+	public void setGivenName() {		
 	}
 	
 	// 紹介を実行する
 	public void execlntroduce() {
-		setGivenName();
 		commonlntroduce();
 		eachlntroduce();
 	}
